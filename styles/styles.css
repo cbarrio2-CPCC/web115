@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+html, body{
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 128, 98);
+  background-color: #553c2b;
+  font-size: 1.3rem;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  border: 1px solid black;
+  height: fit-content;
+}
+
+h1,h2,h3 {
+  font-family: Montserrat, Arial, sans-serif;
+  text-align: center;
+}
+
+small {
+  display:block;
+  width: fit-content;
+  text-indent: 1rem;
+}
+
+main {
+  text-align: left;
+  width: 100%;
+  background-color: #dcb494;
+}
+
+article {
+  text-align: center;
+}
+
+header,footer {
+  background-color: #b36b43;
+}
+
+p {
+  margin: 1rem;
+}
+
+footer ul, nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  float: left;
+  width:33.33%;
+  list-style-type: none;
+}
+
+footer ul li {
+  float: left;
+  width:14.28571429%;
+  list-style-type: none;
+}
+
+footer ul li a, nav ul li a {
+  display: block;
+  width: 100%;
+  color: #004080;
+  border: 1px solid #004080;
+}
+
+footer ul li a:first-child, nav ul li a:first-child {
+  border-left: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  text-align: center;
+}
+
+figure img {
+  width: 20%;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+}
