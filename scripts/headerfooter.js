@@ -1,5 +1,5 @@
-window.addEventListener('DOMContentLoaded', ()=>{
-    const header = document.querySelector('header')
+window.addEventListener("DOMContentLoaded", () => {
+    const header = document.querySelector("header");
     header.innerHTML = `
         <h1>Clerick Barrion's Cool Bear | WEB115</h1>
         <nav>
@@ -9,8 +9,8 @@ window.addEventListener('DOMContentLoaded', ()=>{
                 <li><a href="contract.html">Contract</a></li>
             </ul>
         </nav>
-    `
-    const footer = document.querySelector('footer')
+    `;
+    const footer = document.querySelector("footer");
     footer.innerHTML = `
         <ul>
             <li><a href="https://github.com/cbarrio2-CPCC">GitHub</a></li>
@@ -23,11 +23,5 @@ window.addEventListener('DOMContentLoaded', ()=>{
         </ul>
         <br>
         <p>Page built by CookieBear &copy;2024</p>
-        <a href="http://validator.w3.org/check?uri=${window.location.href}" style = "text-decoration: none">
-            <img src="images/validation_button_html-blue.png" alt="Validate HTML" />
-        </a>
-        <a href="http://jigsaw.w3.org/css-validator/validator?uri=${window.location.href}" style = "text-decoration: none">
-            <img src="images/validation_button_css-blue.png" alt="Validate CSS" />
-        </a>
-    `
-})
+    `;
+});
