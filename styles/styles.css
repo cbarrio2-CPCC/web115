@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
 
 html, body{
   height: 100%;
@@ -7,8 +8,8 @@ html, body{
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(0, 128, 98);
+  font-family: 'Roboto Serif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(0, 119, 255);
   background-color: #553c2b;
   font-size: 1.3rem;
   text-align: center;
@@ -18,9 +19,15 @@ body {
   height: fit-content;
 }
 
-h1,h2,h3 {
+h1, h2 {
   font-family: Montserrat, Arial, sans-serif;
   text-align: center;
+}
+
+h3 {
+  font-family: Montserrat, Arial, sans-serif;
+  margin: 1rem;
+  text-align: left;
 }
 
 small {
@@ -54,7 +61,7 @@ footer ul, nav ul {
 
 nav ul li {
   float: left;
-  width:33.33%;
+  width:25%;
   list-style-type: none;
 }
 
@@ -93,4 +100,30 @@ figure img {
 
 figcaption {
   font-style: italic;
+}
+
+#montserrat {
+  font-family: Montserrat, Arial, sans-serif;
+}
+
+#dark-blue{
+  color: #004080;
+}
+
+#dark-brown{
+  color: #553c2b
+}
+
+#brown{
+  color: #b36b43;
+}
+
+#light-brown{
+  width:fit-content;
+  background-color: #004080;
+  color: #dcb494;
+}
+
+#light-brown::marker{
+  color: #004080;
 }
