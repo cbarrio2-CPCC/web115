@@ -17,6 +17,7 @@ body {
   flex-direction: column;
   border: 1px solid black;
   height: fit-content;
+  line-height: 2rem;
 }
 
 h1, h2 {
@@ -40,6 +41,10 @@ main {
   text-align: left;
   width: 100%;
   background-color: #dcb494;
+}
+
+main ul {
+  margin: 1rem;
 }
 
 article {
