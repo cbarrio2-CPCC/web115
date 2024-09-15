@@ -39,8 +39,8 @@ small {
 
 main {
   text-align: left;
-  width: 100%;
   background-color: #dcb494;
+  padding: 4rem;
 }
 
 main ul {
@@ -93,6 +93,7 @@ footer ul li a:first-child, nav ul li a:first-child {
 
 a {
   text-decoration: none;
+  color: beige;
 }
 
 figure {
@@ -132,4 +133,8 @@ figcaption {
 
 #light-brown::marker{
   color: #004080;
+}
+
+#beige{
+  color: beige;
 }
