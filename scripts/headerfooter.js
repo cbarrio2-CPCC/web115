@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
             <li><a href="https://cbarrio2-cpcc.github.io/web115">WEB115.io</a></li>
             <li><a href="https://www.freecodecamp.org/clerick">freeCodeCamp</a></li>
             <li><a href="https://www.codecademy.com/profiles/cbarrion">Codecademy</a></li>
-            <li><a href="https://jsfiddle.net/clerickbarrion/v5pusd1m/2/">JSFiddle</a></li>
+            <li><a href="https://jsfiddle.net/u/clerickbarrion/fiddles/">JSFiddle</a></li>
             <li><a href="https://www.linkedin.com/in/clerickbarrion">LinkedIn</a></li>
         </ul>
         <br>
