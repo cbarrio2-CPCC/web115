@@ -52,7 +52,7 @@ article {
 }
 
 header,footer {
-  background-color: #b36b43;
+  background-color: #8F5635;
   color: beige;
 }
 
@@ -93,7 +93,7 @@ footer ul li a:first-child, nav ul li a:first-child {
 
 a {
   text-decoration: none;
-  color: limegreen;
+  color: #2A9C2A;
 }
 
 figure {
@@ -123,7 +123,7 @@ figcaption {
 }
 
 #brown{
-  color: #b36b43;
+  color: #8F5635;
 }
 
 #light-brown{
