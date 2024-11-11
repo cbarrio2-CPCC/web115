@@ -9,7 +9,7 @@ html, body{
 
 body {
   font-family: 'Roboto Serif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(0, 119, 255);
+  color: #3A5A74;
   background-color: #553c2b;
   font-size: 1.3rem;
   text-align: center;
@@ -53,7 +53,7 @@ article {
 
 header,footer {
   background-color: #b36b43;
-  color: #004080;
+  color: beige;
 }
 
 p {
@@ -79,8 +79,8 @@ footer ul li {
 
 footer ul li a, nav ul li a {
   display: block;
-  color: #004080;
-  border: solid #004080;
+  color: beige;
+  border: solid beige;
 }
 
 footer ul li a:first-child, nav ul li a:first-child {
@@ -93,7 +93,7 @@ footer ul li a:first-child, nav ul li a:first-child {
 
 a {
   text-decoration: none;
-  color: beige;
+  color: limegreen;
 }
 
 figure {

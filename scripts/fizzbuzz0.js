@@ -7,7 +7,7 @@ form.addEventListener("submit", (e) => {
     const fizzbuzzoutput = document.getElementById("fizzbuzzoutput");
 
     e.preventDefault();
-    greeting.innerText = `Welcome to CookieBear, ${fname} ${middleInital}. ${lname}!`;
+    greeting.innerText = `Welcome to CookieBear, ${fname} ${middleInital ? middleInital+"." : ""} ${lname}!`;
     let num = Number(prompt(`How high do you want to count, ${fname}?`));
 
     while (isNaN(num) || num < 1 ) {
