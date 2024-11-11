@@ -39,7 +39,7 @@ small {
 
 main {
   text-align: left;
-  background-color: #dcb494;
+  background-color: #E8C8A9;
   padding: 4rem;
 }
 
@@ -111,6 +111,7 @@ figcaption {
 
 #montserrat {
   font-family: Montserrat, Arial, sans-serif;
+  font-weight: bold;
 }
 
 #dark-blue{
@@ -128,7 +129,7 @@ figcaption {
 #light-brown{
   width:fit-content;
   background-color: #004080;
-  color: #dcb494;
+  color: #E8C8A9;
 }
 
 #light-brown::marker{
