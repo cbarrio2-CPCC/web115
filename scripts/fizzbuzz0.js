@@ -1,13 +1,13 @@
 const form = document.querySelector("form");
 form.addEventListener("submit", (e) => {
     const fname = document.getElementById("fname").value;
-    const middleInital = document.getElementById("middle-inital").value;
+    const middleInitial = document.getElementById("middle-initial").value;
     const lname = document.getElementById("lname").value;
     const greeting = document.getElementById("greeting");
     const fizzbuzzoutput = document.getElementById("fizzbuzzoutput");
 
     e.preventDefault();
-    greeting.innerText = `Welcome to CookieBear, ${fname} ${middleInital ? middleInital+"." : ""} ${lname}!`;
+    greeting.innerText = `Welcome to CookieBear, ${fname} ${middleInitial ? middleInitial+"." : ""} ${lname}!`;
     let num = Number(prompt(`How high do you want to count, ${fname}?`));
 
     while (isNaN(num) || num < 1 ) {
