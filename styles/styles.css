@@ -40,7 +40,7 @@ small {
 main {
   text-align: left;
   background-color: #E8C8A9;
-  padding: 4rem;
+  padding: 0.5rem 4rem;
 }
 
 main ul {
@@ -152,4 +152,8 @@ form input[type="submit"] {
   background-color: #b36b43;
   color:#004080;
   padding: 0.3rem;
+}
+
+i {
+  margin-left: 1rem;
 }
