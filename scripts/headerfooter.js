@@ -11,6 +11,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 <li><a href="brand.html">Brand</a></li>
                 <li><a href="fizzbuzz0.html">Fizz Buzz 0</a></li>
                 <li><a href="fizzbuzz1.html">Fizz Buzz 1</a></li>
+                <li><a href="fizzbuzz2.html">Fizz Buzz 2</a></li>
             </ul>
         </nav>
     `;
