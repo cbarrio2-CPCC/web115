@@ -24,7 +24,7 @@ form.addEventListener("submit", (e) => {
 
     fizzbuzzoutput.innerHTML = "";
     for (let i = 1; i < num + 1; i++ ) {
-        fizzbuzz = "";
+        let fizzbuzz = "";
         divisors.forEach((divisor) => {
             if (checkDivision(i, divisor[0])) {
                 fizzbuzz += divisor[1];

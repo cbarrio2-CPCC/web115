@@ -49,8 +49,22 @@ main ul {
   margin: 0.3rem 1rem;
 }
 
+#form {
+  display:flex;
+  justify-content: center;
+  margin: auto auto 1rem auto;
+}
+
+#form article section {
+  display: flex;
+  flex-direction: column;
+  margin: 0.5rem;
+}
+
 article {
-  text-align: center;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
 }
 
 header,footer {
@@ -157,11 +171,14 @@ form {
   width:fit-content;
 }
 
-form input[type="submit"] {
+input[type="submit"] {
   font-family: 'Roboto Serif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #8F5635;
   color:beige;
   padding: 0.3rem;
+  cursor: pointer;
+  display: inline-block;
+  width:fit-content;
 }
 
 i {
@@ -174,6 +191,7 @@ button {
   background-color: #8F5635;
   color: beige;
   padding: 0.3rem;
+  cursor: pointer;
 }
 
 #favicon {
@@ -185,4 +203,15 @@ button {
 #logo {
   width: 5rem;
   height: 5rem;
+}
+
+#fizzbuzzoutput {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+} 
+#fizzbuzzoutpit li {
+  min-width: fit-content;
 }
