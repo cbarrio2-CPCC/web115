@@ -1,7 +1,10 @@
 window.addEventListener("DOMContentLoaded", () => {
     const header = document.querySelector("header");
     header.innerHTML = `
-        <h1>Clerick Barrion's CookieBear</h1>
+        <div>
+            <img id="logo" src="images/logo.png" alt="CookieBear Logo">
+            <h1>Clerick Barrion's CookieBear</h1>
+        </div>
         <small><i>Bear Hugs in Every Bite</i></small>
         <nav>
             <ul>

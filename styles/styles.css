@@ -58,6 +58,13 @@ header,footer {
   color: beige;
 }
 
+header div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 4rem;
+}
+
 p {
   margin: 0.3rem 1rem;
 }
@@ -167,4 +174,15 @@ button {
   background-color: #8F5635;
   color: beige;
   padding: 0.3rem;
+}
+
+#favicon {
+  width: 2rem;
+  height: 2rem;
+  margin-left: 1rem;
+}
+
+#logo {
+  width: 5rem;
+  height: 5rem;
 }
