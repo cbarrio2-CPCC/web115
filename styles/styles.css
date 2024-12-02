@@ -67,16 +67,19 @@ footer ul, nav ul {
   margin: 0;
 }
 
-nav ul li {
-  float: left;
-  width:14.28571429%;
-  list-style-type: none;
+nav ul, footer ul {
+  display:flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  width: 100%;
 }
 
-footer ul li {
-  float: left;
+footer ul li, nav ul li {
   width:14.28571429%;
+  min-width:fit-content;
   list-style-type: none;
+  padding: 0.2rem;
+  display: inline-block;
 }
 
 footer ul li a, nav ul li a {
@@ -87,9 +90,6 @@ footer ul li a, nav ul li a {
 
 footer ul li a:first-child, nav ul li a:first-child {
   border-left: none;
-}
-
-footer ul li a:first-child, nav ul li a:first-child {
   border-right: none;
 }
 
