@@ -51,7 +51,9 @@ main ul {
 
 #form {
   display:flex;
+  flex-wrap: wrap;
   justify-content: center;
+  flex-direction: column;
   margin: auto auto 1rem auto;
 }
 
@@ -63,8 +65,7 @@ main ul {
 
 article {
   display: flex;
-  width: 100%;
-  flex-direction: column;
+  justify-content: center;
 }
 
 header,footer {
@@ -106,7 +107,7 @@ footer ul li, nav ul li {
 footer ul li a, nav ul li a {
   display: block;
   color: beige;
-  border: solid beige;
+  /* border: solid beige; */
 }
 
 footer ul li a:first-child, nav ul li a:first-child {
@@ -168,7 +169,10 @@ figcaption {
 }
 
 form {
-  width:fit-content;
+  margin-top: 1rem;
+  width:100%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 input[type="submit"] {
@@ -179,6 +183,7 @@ input[type="submit"] {
   cursor: pointer;
   display: inline-block;
   width:fit-content;
+  margin: 1rem auto
 }
 
 i {
@@ -195,8 +200,8 @@ button {
 }
 
 #favicon {
-  width: 2rem;
-  height: 2rem;
+  width: 5rem;
+  height: 5rem;
   margin-left: 1rem;
 }
 
@@ -207,10 +212,10 @@ button {
 
 #fizzbuzzoutput {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  gap: 4rem;
 } 
-#fizzbuzzoutpit li {
-  min-width: fit-content;
+
+#middle-initial {
+  width: 1rem;
 }
