@@ -17,7 +17,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 <li><a href="fizzbuzz2.html">Fizz Buzz 2</a></li>
                 <li><a href="fizzbuzz3.html">Fizz Buzz 3</a></li>
                 <li><a href="fizzbuzz4.html">Fizz Buzz 4</a></li>
-
+                <li><a href="onepagesite/index.html">One Page Site</a></li>
             </ul>
         </nav>
     `;
