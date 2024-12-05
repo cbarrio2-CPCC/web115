@@ -25,7 +25,7 @@ form.addEventListener("submit", (e) => {
     const divisors = [[fizzNumber, fizzWord + " "], [buzzNumber, buzzWord + " "], [bangNumber, bangWord + " "]];
 
     const total = Number(document.getElementById("total").value);
-    greeting.innerText = `Welcome to CookieBear, ${fname} ${middleInitial ? middleInitial+"." : ""} ${lname}!`;
+    greeting.innerText = `Welcome to CookieBear, ${fname} ${middleInitial.trim() ? middleInitial+"." : ""} ${lname}!`;
 
     fizzbuzzoutput.innerHTML = "";
     for (let i = 1; i < total + 1; i++ ) {
