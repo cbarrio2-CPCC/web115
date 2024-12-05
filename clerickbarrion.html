@@ -7,33 +7,38 @@
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
         body {
             background: linear-gradient(135deg, #8B5A2B, #C89C74);
+            background-image: url('images/background.jpg');
+            background-size: cover;
             display:flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
         main {
-            text-align: center;
+            box-shadow: rgb(51, 51, 51) 5px 0px 15px,
+            rgb(51, 51, 51) -5px 0px 15px;
+            border: 1px solid beige;
+            background-image: url('images/waves.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: right;
             margin: auto;
-            width: 80%;
-            
+            width: fit-content;
+            padding: 3rem 15rem 3rem 2rem;
+            background-color: #553c2b;
             font-family: Arial, sans-serif;
+            color: beige;
         }
-        h1 {
-            font-size: 2.5em;
+        h1, h2 {
+            font-family: Montserrat, Arial, sans-serif;
             margin: 0;
-        }
-        h2 {
-            font-size: 1.5em;
-            margin: 0;
-        }
-        hr {
-            width: 50%;
-            margin: 0 auto;
         }
         p {
+            font-family: 'Roboto Serif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
         }
     </style>
@@ -43,8 +48,8 @@
         <div>
             <h1>Clerick Barrion</h1>
             <h2>Web Developer</h2>
-            <hr>
         </div>
+        <hr>
         <p>980-214-2791</p>
         <p>clerickbarrion@gmail.com</p>
         <p>7000 Glenwood St</p>
