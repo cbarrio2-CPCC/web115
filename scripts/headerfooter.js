@@ -33,6 +33,6 @@ window.addEventListener("DOMContentLoaded", () => {
             <li><a href="https://www.linkedin.com/in/clerickbarrion" target="_blank">LinkedIn</a></li>
         </ul>
         <br>
-        <p>Page built by CookieBear &copy;2024</p>
+        <p>Page built by <a style="color: beige" href="clerickbarrion.html">Clerick Barrion</a> &copy;2024</p>
     `;
 });
