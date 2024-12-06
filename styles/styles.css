@@ -217,3 +217,37 @@ margin:auto;
 #middle-initial {
   width: 1rem;
 }
+
+#intro-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#intro-form input {
+  width: fit-content;
+  font-family: 'Roboto Serif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+#intro-form textarea {
+  width: 50%;
+  height: 6rem;
+  font-family: 'Roboto Serif','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+#intro-form .course{
+  width: 19rem;
+}
+
+#intro-form .reason {
+  width: 29rem;
+}
+
+#courses {
+  margin-top: 0;
+}
+
+#intro-form #funny {
+  width: 15rem;
+}

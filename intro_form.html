@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clerick Barrion's CookieBear | Introduction Form</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <script src="https://lint.page/kit/67ff88.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header></header>
+    <main>
+        <h2>Introduction Form</h2>
+        <form id="intro-form">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" required value="Clerick">
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" required value="Barrion">
+            <label for="photo">Photo (optional):</label>
+            <input type="file" id="photo" accept="image/*">
+            <label for="caption">Caption (optional):</label>
+            <input id="caption" placeholder="Enter caption here">
+            <label for="personal">Personal Background:</label>
+            <textarea id="personal" required>I was born in the Philippines and I moved to New Jersey when I was 5. I moved to North Carolina when I was 11 and I have been living here since.</textarea>
+            <label for="professional">Professional Background:</label>
+            <textarea id="professional" required>I was a coding apprentice in a program called Road to Hire. It's a 6 month program where they teach us skills regarding web development. After that, they set me up for an interview with Bank of America, and now I'm currently an apprentice for a year doing QA and automation.</textarea>
+            <label for="Academic">Academic Background:</label>
+            <textarea id="academic" required>I graduated high school in 2022 and now I'm working towards an Associate's Degree in Full Stack Programming in CPCC. I have just 1 more class to take in the spring and then I'm done.</textarea>
+            <label for="subject">Background in this subject:</label>
+            <textarea id="subject" required>I took AP computer science and Python in high school. I learned PHP in WEB-250 and JavaScript at Road to Hire. I've made websites and useful applications for myself.</textarea>
+            <label for="platform">Primary Computer Platform:</label>
+            <input id="platform" type="text" value="Windows 11 computer" required>
+            <label>Courses:</label>
+            <ol id="courses">
+                <div id="course-container">
+                    <li>
+                        <input id="course1" class="course" type="text" value="WEB115 - Web Markup and Scripting" required>
+                        <label for="reason1">Reason:</label>
+                        <input type="text" id="reason1" class="reason" value="To practice JavaScript." required>
+                        <button>Remove</button>
+                    </li>
+                    <li>
+                        <input id="course2" class="course" type="text" value="CSC154 - Software Development" required>
+                        <label for="reason2">Reason:</label>
+                        <input type="text" id="reason2" class="reason" value="To practice working on developing software with a team." required>
+                        <button>Remove</button>
+                    </li>
+                    <li>
+                        <input id="course3" class="course" type="text" value="CTS118 - IS Professional Comm" required>
+                        <label for="reason3">Reason:</label>
+                        <input type="text" id="reason3" class="reason" value="To better communicate professionally." required>
+                        <button>Remove</button>
+                    </li>
+                    <li>
+                        <input id="course4" class="course" type="text" value="CTS240 - Project Management" required>
+                        <label for="reason4">Reason:</label>
+                        <input type="text" id="reason4" class="reason" value="To know how to better manage a project." required>
+                        <button>Remove</button>
+                    </li>
+                    <li>
+                        <input id="course5" type="text" class="course" value="WEB140 - Web Development Tools" required>
+                        <label for="reason5">Reason:</label>
+                        <input type="text" id="reason5" class="reason" value="To learn more about web development." required>
+                        <button>Remove</button>
+                    </li>
+                </div>
+                <button id="add-course">Add Course</button>
+            </ol>
+            <label for="funny">Fun Fact:</label>
+            <input id="funny" type="text" value="I can wiggle my nose without touching it." required>
+        </form>
+        <input type="submit" form="intro-form">
+        <div id="output"></div>
+    </main>
+    <footer></footer>
+    <script src="scripts/headerfooter.js"></script>
+    <script src="scripts/intro_form.js"></script>
+</body>
+</html>
